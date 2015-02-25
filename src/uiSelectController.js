@@ -24,7 +24,7 @@ uis.controller('uiSelectCtrl',
   ctrl.disabled = undefined; // Initialized inside uiSelect directive link function
   ctrl.searchEnabled = undefined; // Initialized inside uiSelect directive link function
   ctrl.sortable = undefined; // Initialized inside uiSelect directive link function
-  ctrl.resetSearchInput = undefined; // Initialized inside uiSelect directive link function
+  ctrl.resetSearchInput = true; // Initialized inside uiSelect directive link function
   ctrl.refreshDelay = undefined; // Initialized inside uiSelectChoices directive link function
   ctrl.multiple = false; // Initialized inside uiSelect directive link function
   ctrl.disableChoiceExpression = undefined; // Initialized inside uiSelect directive link function
